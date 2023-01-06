@@ -179,3 +179,32 @@ margin-bottom: 20px;
     margin-top: 30px;
    text-align: center;
 }
+/* footer */
+.contact .section-title{
+    text-align: left;
+    font-weight: 700;
+font-size: 35px;
+color: #181818
+}
+.section-decoration{
+    margin-bottom: 20px;
+}
+.contact{
+    display: flex;
+    gap: 120px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    width: 100%;
+    border: 0;
+    padding: 18px 30px;
+}
+.contact a{
+    text-decoration: none;
+    font-weight: 400;
+font-size: 16px;
+color: #474747;
+}
